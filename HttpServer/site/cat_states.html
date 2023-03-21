@@ -1,0 +1,25 @@
+﻿@{
+Layout="layout";
+}
+<div class="cat-container">
+    <div class="cat-property">
+        <div><img src="@Model.Cat.ImagePath" class="cat-image"></div>
+        <div class="cat-info">
+            <p>Кот - @Model.Cat.Name</p>
+            <p>Возраст - @Model.Cat.Age</p>
+            <p>Уровень счастья - @Model.Cat.HappinessLevel</p>
+            <p>Уровень сытости - @Model.Cat.SatietyLevel</p>
+            <p>Состояние кота - @Model.Cat.TotalCatState</p>
+            <p class="message">@Model.Cat.Message</p>
+        </div>
+    </div>
+    <form action="http://localhost:8000/cat_states.html" method="get">
+        <label for="cat">Выберите действие</label>
+        <select name="catAction" id="cat">
+            <option value="play">Поиграть с котом</option>
+            <option value="feed">Кормить кота</option>
+            <option value="sleep">Уложить спать</option>
+        </select>
+        <button type="submit">Подтвердить</button>
+    </form>
+</div>

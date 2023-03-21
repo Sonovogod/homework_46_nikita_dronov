@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+.railway {
+    max-width: 500px;
+    margin: 50px auto 0;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.railway h3{
+    text-transform: uppercase;
+}
+.form-cat_name {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.form-cat_name input, .form-cat_name label, .form-cat_name textarea {
+    display: block;
+    width: 100%;
+}
+.form-cat_name input {
+    padding: 0;
+    line-height: 30px;
+    border-width: 0;
+}
+.form-cat_name label {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.submit-block {
+    padding: 10px 20px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.submit-button {
+    display: inline-block;
+    padding: 5px 10px;
+}
+.cat-container{
+    max-width: 500px;
+}
+.cat-property {
+    display: flex;
+    flex-flow: row wrap;
+}
+.cat-image{
+    max-width: 200px;
+    border: 4px solid #d7d7d7;
+    border-radius: 20px;
+}
+.cat-info{
+    margin-left: 20px;
+    max-width: 200px;
+}
+.cat-info p{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+.message {
+    padding: 3px;
+    border: 3px solid #72a186;
+    border-radius: 5px;
+}
